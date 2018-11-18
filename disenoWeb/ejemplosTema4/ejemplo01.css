@@ -1,0 +1,33 @@
+p { 
+  color: red;
+}
+
+nav a {
+  color: green;
+  padding: 20px;
+  border: dotted 1px blue;
+}
+
+p + p {
+  background-color: yellow;
+}
+
+nav a:link {
+  color: red;
+}
+
+nav a:visited {
+  color: brown;
+}
+
+nav a:hover {
+	background-color: yellow;
+}
+
+nav.desaparece {background-color: red;}
+
+@media screen and (max-device-width: 480px) and (min-device-width: 320px) {
+  nav.desaparece{
+    display: none;
+  }
+}

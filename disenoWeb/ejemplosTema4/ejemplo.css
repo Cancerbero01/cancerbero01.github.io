@@ -1,0 +1,36 @@
+body h1 {
+   font-family: 'Butcherman', cursive;
+}
+
+body > header {
+  border: dotted red 1px;
+  width: 100%; 
+  overflow: auto;
+}
+
+body > header h1 {
+  font-family: 'Butcherman', cursive;
+  font-size: xx-large;
+  width: 80%;
+  float: left;
+  color: #9FA63C;
+  text-shadow: 1px 1px 13px #9FA63C; 
+  text-align: center;
+}
+
+body > header > picture > img{
+  min-width: 100px;
+  max-width: 250px;
+  width: 19%;
+  background-color: red;
+  float: right;
+}
+
+nav {
+  padding: 10px;
+}
+
+nav a {
+  padding: 10px;
+  border: solid;
+}
