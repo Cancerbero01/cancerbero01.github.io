@@ -1,0 +1,40 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+nav {
+  height: 4em;
+}
+
+nav img {
+  padding-top: 40px;
+  border: rgb(33, 37, 41) 6px solid;
+}
+
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+        border-left-color: rgb(238, 238, 238);
+        border-left-width: 1px;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+
+}
+
+.bd-callout-warning {
+    border-left-color: #f0ad4e;
+}
+
+article h5{
+  width: 50%;
+  background-color: white;
+  margin-top: -35px;
+  padding-left: 10px;
+}
