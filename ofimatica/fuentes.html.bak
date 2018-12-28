@@ -11,6 +11,7 @@
     <link href="css/starter-template.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
     <script src="js/MooTools-Core-1.6.0.js"></script>
+    <script src="js/motor.js"></script>
 <style></style>
   </head>
   <body>
