@@ -15,18 +15,14 @@
     <style></style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <a class="navbar-brand"
-
-        href="#"> <img src="img/mini_logotipo.jpg"> </a> <button class="navbar-toggler"
-
-        type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <a class="navbar-brand"
+        href="#"> <img src="img/mini_logotipo.jpg"> </a> <button class="navbar-toggler"
+        type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
         aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"> <a class="nav-link" href="#">Inicio <span
-
+          <li class="nav-item active"> <a class="nav-link" href="#">Inicio <span
                 class="sr-only">(current)</span></a> </li>
           <li class="nav-item"> <a class="nav-link" href="#">Hoja de
               c&#225;lculo</a> </li>
@@ -37,40 +33,33 @@
           <!--li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://example.com"
               id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>            <div class="dropdown-menu" aria-labelledby="dropdown01"> <a class="dropdown-item"                href="#">Action</a> <a class="dropdown-item" href="#">Another                action</a> <a class="dropdown-item" href="#">Something else                here</a> </div>          </li-->
         </ul>
-        <form class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
-
-            placeholder="Buscar" aria-label="Search" type="text"> <button class="btn btn-outline-success my-2 my-sm-0"
-
+        <form class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+            placeholder="Buscar" aria-label="Search" type="text"> <button class="btn btn-outline-success my-2 my-sm-0"
             type="submit">Buscar</button> </form>
       </div>
     </nav>
     <menu>
-      <div> <button id="bt1" type="button" class="btn btn-dark">1</button> <button
-
-          id="bt2" type="button" class="btn btn-dark">2</button> <button id="bt3"
-
-          type="button" class="btn btn-dark">3</button> <button id="bt4" type="button"
-
+      <div> <button id="bt1" type="button" class="btn btn-dark">1</button> <button
+          id="bt2" type="button" class="btn btn-dark">2</button> <button id="bt3"
+          type="button" class="btn btn-dark">3</button> <button id="bt4" type="button"
           class="btn btn-dark">4</button> <button id="bt5" type="button" class="btn btn-dark">5</button>
-        <button id="bt6" type="button" class="btn btn-dark">6</button> <button
-
-          id="bt7" type="button" class="btn btn-dark">7</button> <button id="bt8"
-
-          type="button" class="btn btn-dark">8</button> <button id="bt9" type="button"
-
+        <button id="bt6" type="button" class="btn btn-dark">6</button> <button
+          id="bt7" type="button" class="btn btn-dark">7</button> <button id="bt8"
+          type="button" class="btn btn-dark">8</button> <button id="bt9" type="button"
           class="btn btn-dark">9</button> <button id="bt10" type="button" class="btn btn-dark">10</button>
       </div>
     </menu>
     <main role="main" class="container">
       <header class="starter-template">
         <h1>Ofim&#225;tica para oposiciones</h1>
-        <p class="lead">Fuentes y preguntas de oposici&#243;n.</p>
+        <p class="lead"><span class="badge badge-secondary">Test 001</span> -
+          Fuentes y preguntas de oposici&#243;n.</p>
       </header>
       <article class="bd-callout bd-callout-warning" id="preg1">
         <h5>Hoja de c&#225;lculo</h5>
-        <p class="pregunta">Dada <a href="csv/nombres.csv">esta
-            hoja de c&#225;lculo</a> en extensi&#243;n CSV responde:
-          &#191;Cu&#225;ntas personas diferentes hay en el listado? <br>
+        <p class="pregunta">Dada <a href="csv/nombres.csv">esta hoja de
+            c&#225;lculo</a> en extensi&#243;n CSV responde: &#191;Cu&#225;ntas
+          personas diferentes hay en el listado? <br>
           (Resolver sin usar tablas din&#225;micas) </p>
         <ol style="">
           <li style="list-style-type: lower-alpha;">08</li>
@@ -81,10 +70,9 @@
       </article>
       <article class="bd-callout bd-callout-warning" id="preg2">
         <h5>Hoja de c&#225;lculo</h5>
-        <p class="pregunta">Dada <a href="csv/nombres.csv">esta
-            hoja de c&#225;lculo</a> en extensi&#243;n CSV responde:
-          &#191;Qu&#233; persona sale m&#225;s veces repetida y que n&#250;mero
-          de veces? <br>
+        <p class="pregunta">Dada <a href="csv/nombres.csv">esta hoja de
+            c&#225;lculo</a> en extensi&#243;n CSV responde: &#191;Qu&#233;
+          persona sale m&#225;s veces repetida y que n&#250;mero de veces? <br>
           (Resolver sin usar tablas din&#225;micas) </p>
         <ol style="">
           <li style="list-style-type: lower-alpha;">Dolores Fuertes de barriga
@@ -95,9 +83,53 @@
           <li style="list-style-type: lower-alpha;">Igor Dito 103 veces</li>
         </ol>
       </article>
+      <article class="bd-callout bd-callout-warning" id="preg3">
+        <h5>Hoja de c&#225;lculo</h5>
+        <p class="pregunta">Dada <a href="csv/nombres.csv">esta hoja de
+            c&#225;lculo</a> en extensi&#243;n CSV responde: &#191;Cu&#225;ntas
+          personas diferentes hay en el listado cuya nota es superior o igual a
+          7? <br>
+          (Resolver sin usar tablas din&#225;micas) </p>
+        <ol style="">
+          <li style="list-style-type: lower-alpha;">08</li>
+          <li style="list-style-type: lower-alpha;">09</li>
+          <li style="list-style-type: lower-alpha;">10</li>
+          <li style="list-style-type: lower-alpha;">12</li>
+        </ol>
+      </article>
+      <article class="bd-callout bd-callout-warning" id="preg4">
+        <h5>Hoja de c&#225;lculo</h5>
+        <p class="pregunta">Dada <a href="csv/nombres.csv">esta hoja de
+            c&#225;lculo</a> en extensi&#243;n CSV responde: &#191;Qu&#233;
+          persona con una nota de m&#225;s o igual a 6&#160; sale m&#225;s veces
+          repetida y que n&#250;mero de veces? <br>
+          (Resolver sin usar tablas din&#225;micas) </p>
+        <ol style="">
+          <li style="list-style-type: lower-alpha;">Dolores Fuertes de barriga
+            99 veces</li>
+          <li style="list-style-type: lower-alpha;">Antonio Bragueta&#160; 99
+            veces</li>
+          <li style="list-style-type: lower-alpha;">Hele Chufe 90 veces</li>
+          <li style="list-style-type: lower-alpha;">Igor Dito 103 veces</li>
+        </ol>
+      </article>
+      <article class="bd-callout bd-callout-warning" id="preg5">
+        <h5>Hoja de c&#225;lculo</h5>
+        <p class="pregunta">Formatos. &#191;Cuantas horas, minutos y segundos
+          hay en 1524687 segundos?</p>
+        <ol style="">
+          <li style="list-style-type: lower-alpha;">424 Horas 30 minutos y 27
+            segundos</li>
+          <li style="list-style-type: lower-alpha;">423 Horas 31 minutos y 27
+            segundos</li>
+          <li style="list-style-type: lower-alpha;">423 Horas 30 minutos y 20
+            segundos</li>
+          <li style="list-style-type: lower-alpha;">423 Horas 31 minutos y 30
+            segundos</li>
+        </ol>
+      </article>
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
     <script src="js/popper.min.js"></script>
